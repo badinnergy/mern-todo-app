@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import { BrowserRouter as Router, Route, Link } from "react-router-dom"
 
 // Our own components
+import DevHelpPage from './components/devhelp.component'
 import TodosList from './components/todos-list.component'
 import EditTodo from './components/edit-todo.component'
 import CreateTodo from './components/create-todo.component'
@@ -27,10 +28,14 @@ class App extends Component {
                                 <li className="navbar-item">
                                     <Link to="/create" className="nav-link">Create Todo</Link>
                                 </li>
+                                <li className="navbar-item">
+                                    <Link to="/devhelp" className="nav-link">Dev Help</Link>
+                                </li>
                             </ul>
                         </div>
                     </nav>
                     <Route path="/" exact component={TodosList} />
+                    <Route path="/devhelp" component={DevHelpPage} />
                     <Route path="/edit/:id" exact component={EditTodo} />
                     <Route path="/create" exact component={CreateTodo} />
                     <Route path="/delete/:id" exact component={DeleteTodo} />
