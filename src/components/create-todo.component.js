@@ -144,7 +144,7 @@ export default class CreateTodo extends Component {
                         />
                     </div>
                     <div>
-                        <label>Resposible: </label>
+                        <label>Responsible: </label>
                         <input
                             type="text"
                             id="responsible"
