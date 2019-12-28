@@ -1,5 +1,6 @@
 # mern-todo-app
-An attempt to learn the MERN stack
+An attempt to learn the MERN stack by following this tutorial:
+https://codingthesmartway.com/the-mern-stack-tutorial-building-a-react-crud-application-from-start-to-finish-part-1/
 
 ## Usage
 To run this on your machine, you will need 4 terminals
